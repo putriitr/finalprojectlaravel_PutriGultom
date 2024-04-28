@@ -11,7 +11,7 @@
       </div>
       <!-- header section end -->
       <!-- coffee section start -->
-      <div c    <div class="row">
+       <div class="row">
                <div class="col-md-12">
                   <h1 class="coffee_taital">Category Product</h1>
                </div>

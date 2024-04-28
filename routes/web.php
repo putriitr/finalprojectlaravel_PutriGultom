@@ -33,9 +33,11 @@ Route::get('/contact', function () {
     return view('layout.contact');
 });
 
-Route::get('/category', function () {
-    return view('layout.category');
-});
+// Route::get('/category', function () {
+//     return view('layout.category');
+// });
+
+Route::resource('/category',\App\Http\Controllers\categoryController::class);
 
 Route::get('/product', function () {
     return view('layout.product');
