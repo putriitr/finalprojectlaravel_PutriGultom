@@ -65,5 +65,10 @@ Route::controller(TransaksiController::class)->prefix('transaksi')->group(functi
     Route::get('delete/{id}','delete')->name('transaksi.delete');
 });
 
+Route::controller(LaporanController::class)->prefix('laporan')->group(function(){
+    Route::get('','index')->name('laporan');
+    Route::post('print','laporanPrint')->name('laporan.print');
+});
+
 
 
