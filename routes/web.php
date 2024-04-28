@@ -44,3 +44,53 @@ Route::get('/product', function () {
 Route::get('/logout', function () {
     return view('layout.login');
 });
+
+Route::get('/laptop', function () {
+    return view('items.laptop');
+});
+
+Route::get('/earbud', function () {
+    return view('items.earbud');
+});
+
+Route::get('/iron', function () {
+    return view('items.iron');
+});
+
+Route::get('/microwave', function () {
+    return view('items.microwave');
+});
+Route::get('/mouse', function () {
+    return view('items.mouse');
+});
+
+Route::get('/printer', function () {
+    return view('items.printer');
+});
+
+Route::get('/refrigerator', function () {
+    return view('items.refrigerator');
+});
+
+Route::get('/smartphone', function () {
+    return view('items.smartphone');
+});
+
+Route::get('/speaker', function () {
+    return view('items.speaker');
+});
+
+Route::get('/tv', function () {
+    return view('items.tv');
+});
+Route::get('/vacuum', function () {
+    return view('items.vacuum');
+});
+
+Route::get('/washing', function () {
+    return view('items.washing');
+});
+
+Route::get('/transaction', function () {
+    return view('layout.transaction');
+});

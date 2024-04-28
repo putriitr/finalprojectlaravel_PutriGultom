@@ -45,86 +45,98 @@
             <div class="row">
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="{{('/template/images/product-1.jpg')}}"/></i>
+                    <a href="/laptop">
+                        <i><img src="{{('/template/images/product-1.jpg')}}"/></i>
+                    </a>
                      <h3>LG Laptop</h3>
-                     <span>$25.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="{{('/template/images/product-2.jpg')}}"/></i>
+                    <a href="/smartphone">
+                        <i><img src="{{('/template/images/product-2.jpg')}}"/></i>
+                    </a>
                      <h3>Apple iPhone 14</h3>
-                     <span>$25.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="{{('/template/images/product-3.jpg')}}"/></i>
+                        <a href="/speaker">
+                        <i><img src="{{('/template/images/product-3.jpg')}}"/></i>
+                    </a>
                      <h3>Speaker Bluetooth</h3>
-                     <span>$25.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="{{('/template/images/product-4.jpg')}}"/></i>
+                     <a href="/mouse">
+                        <i><img src="{{('/template/images/product-4.jpg')}}"/></i>
+                    </a>
                      <h3>Logitec Aurora G705 Wireless Mouse</h3>
-                     <span>$25.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="{{('/template/images/product-5.jpg')}}"/></i>
+                     <a href="/printer">>
+                        <i><img src="{{('/template/images/product-5.jpg')}}"/></i>
+                    </a>
                      <h3>Epson WF-2850 Printer</h3>
-                     <span>$25.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="{{('/template/images/product-6.jpg')}}"/></i>
+                     <a href="/vacuum">
+                        <i><img src="{{('/template/images/product-6.jpg')}}"/></i>
+                    </a>
                      <h3>Dustbuster Hand Vacuum</h3>
-                     <span>$25.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="{{('/template/images/product-7.jpg')}}"/></i>
+                     <a href="/refrigerator">
+                        <i><img src="{{('/template/images/product-7.jpg')}}"/></i>
+                    </a>
                      <h3>Samsung Refrigerator</h3>
-                     <span>$25.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="{{('/template/images/product-8.jpg')}}"/></i>
+                     <a href="/washing">
+                        <i><img src="{{('/template/images/product-8.jpg')}}"/></i>
+                    </a>
                      <h3>Samsung Washing Machine</h3>
-                     <span>$25.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="{{('/template/images/product-9.jpg')}}"/></i>
+                     <a href="/tv">
+                        <i><img src="{{('/template/images/product-9.jpg')}}"/></i>
+                    </a>
                      <h3>ENGEL Television</h3>
-                     <span>$25.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="{{('/template/images/product-10.jpg')}}"/></i>
+                     <<a href="/earbud">
+                        <i><img src="{{('/template/images/product-10.jpg')}}"/></i>
+                    </a>
                      <h3>Wireless Earbud Bluetooth</h3>
-                     <span>$25.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="{{('/template/images/product-11.jpg')}}"/></i>
+                     <a href="/microwave">
+                        <i><img src="{{('/template/images/product-11.jpg')}}"/></i>
+                    </a>
                      <h3>HADEN Microwave</h3>
-                     <span>$25.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="{{('/template/images/product-12.jpg')}}"/></i>
+                     <a href="/iron">
+                        <i><img src="{{('/template/images/product-12.jpg')}}"/></i>
+                    </a>
                      <h3>Portable Travel Stream Iron</h3>
-                     <span>$25.00</span>
                   </div>
                </div>
                </div>
