@@ -46,3 +46,24 @@ Route::get('/product', function () {
 Route::get('/logout', function () {
     return view('layout.login');
 });
+
+Route::controller(BarangController::class)->prefix('barang')->group(function(){
+    Route::get('','index')->name('barang');
+    Route::get('tambah','tambah')->name('barang.tambah');
+    Route::post('tambah','simpan')->name('barang.tambah.simpan');
+    Route::get('update/{id}','update')->name('barang.update');
+    Route::post('update/{id}','edit')->name('barang.tambah.edit');
+    Route::get('delete/{id}','delete')->name('barang.delete');
+});
+
+Route::controller(TransaksiController::class)->prefix('transaksi')->group(function(){
+    Route::get('','index')->name('transaksi');
+    Route::get('tambah','tambah')->name('transaksi.tambah');
+    Route::post('tambah','simpan')->name('transaksi.tambah.simpan');
+    Route::get('update/{id}','update')->name('transaksi.update');
+    Route::put('update/{id}','edit')->name('transaksi.tambah.edit');
+    Route::get('delete/{id}','delete')->name('transaksi.delete');
+});
+
+
+
