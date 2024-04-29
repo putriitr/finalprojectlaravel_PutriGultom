@@ -2,8 +2,8 @@ Final Project
 
 Kelompok 01
 Anggota Kelompok :
-- Boy Novriyal
 - Putri Tamara Gultom
+- Boy Novriyal (mundur di tengah pengerjaan proyek)
 
 Tema Project :
 Penjualan Barang Elektronik
