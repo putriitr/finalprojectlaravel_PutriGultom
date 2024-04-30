@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BarangController;
+use App\Http\Controllers\categoryController;
+use App\Http\Controllers\Controller;
+use App\Http\Controllers\LaporanController;
+use App\Http\Controllers\TransaksiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,11 +38,9 @@ Route::get('/contact', function () {
     return view('layout.contact');
 });
 
-// Route::get('/category', function () {
-//     return view('layout.category');
-// });
-
-Route::resource('/category',\App\Http\Controllers\categoryController::class);
+Route::get('/category', function () {
+    return view('layout.category');
+});
 
 Route::get('/product', function () {
     return view('layout.product');
@@ -47,7 +50,7 @@ Route::get('/logout', function () {
     return view('layout.login');
 });
 
-<<<<<<< HEAD
+
 Route::get('/laptop', function () {
     return view('items.laptop');
 });
@@ -95,9 +98,9 @@ Route::get('/washing', function () {
 });
 
 Route::get('/transaction', function () {
-    return view('layout.transaction');
+    return view('transaksi.index');
 });
-=======
+
 Route::controller(BarangController::class)->prefix('barang')->group(function(){
     Route::get('','index')->name('barang');
     Route::get('tambah','tambah')->name('barang.tambah');
@@ -121,6 +124,3 @@ Route::controller(LaporanController::class)->prefix('laporan')->group(function()
     Route::post('print','laporanPrint')->name('laporan.print');
 });
 
-
-
->>>>>>> e37bdb59acfc957581b60a77b054822474f015e0
